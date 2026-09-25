@@ -1,7 +1,7 @@
 """Blackjack à plusieurs joueurs : tirer, rester, séparer et gérer les capitaux.
 
 
-Lancement : python3 blackjack-3-3-2.py
+Lancement : python3 blackjack-style.py
 """
 
 import os
