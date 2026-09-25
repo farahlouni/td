@@ -1,11 +1,7 @@
 """
-python3 defi-casino-c.py
+Lancement : python3 defi-du-6-style.py
 
-Confort de jeu ajouté dans cette version :
-- Affichage en couleur (gains en vert, pertes en rouge, cashout en jaune).
-- Écran nettoyé avant chaque menu pour rester lisible.
-- Messages d'erreur de saisie plus clairs (redemande au lieu de planter).
-- Sortie propre avec Ctrl+C ou Ctrl+D, sans traceback.
+
 """
 
 import os

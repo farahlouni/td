@@ -1,34 +1,5 @@
 """Blackjack à plusieurs joueurs : tirer, rester, séparer et gérer les capitaux.
 
-Règles de cette version  :
-- Le sabot contient six paquets de 52 cartes, soit 312 cartes.
-- Un sabot complet est mélangé au début de chaque manche.
-- Pendant une partie, chaque carte tirée est retirée du sabot commun
-  au joueur et au croupier : les tirages se font sans remise.
-- Un as vaut 11, ou 1 si cela permet d'éviter de dépasser 21.
-- Le joueur choisit de tirer ou de rester ; le croupier s'arrête à 17,
-  y compris avec un as compté comme 11.
-- Un blackjack initial (21 en deux cartes) rapporte +1,5 mise nette.
-- Une victoire ordinaire rapporte +1 mise ; une défaite coûte -1 mise.
-- Une égalité rend la mise : le gain net est 0.
-- Les blackjacks initiaux sont réglés avant toute décision du joueur.
-- Deux cartes initiales de même valeur peuvent être séparées une seule fois :
-  on obtient deux mains et on ajoute une mise identique à la première.
-- Les deux mains sont jouées avant le tour du croupier, qui joue une seule
-  main commune. Chaque main du joueur est ensuite réglée séparément.
-- Deux as séparés reçoivent une seule carte supplémentaire chacun.
-- Un 21 obtenu après séparation rapporte +1 mise nette, pas +1,5 mise.
-- Le bot sépare les as et les 8, puis tire jusqu'à 17 hors as séparés.
-- Cette version ne propose ni doublement ni assurance.
-- De 1 à 7 joueurs peuvent participer, avec chacun un nom et un capital.
-- Tous les joueurs misent avant la distribution ; une mise de 0 fait passer le tour.
-- Chaque joueur joue ses mains avant le tour du croupier, commun à tous.
-- Chaque joueur choisit son capital de départ, puis mise des jetons entiers.
-- Une mise, y compris celle d'une séparation, doit être couverte par le capital.
-- Après chaque partie, le gain net est ajouté au capital (une perte est négative).
-- Les capitaux restants et les bilans individuels sont affichés en fin de session.
-- La simulation reste une référence avec un seul bot face au croupier.
-
 
 Lancement : python3 blackjack-3-3-2.py
 """
